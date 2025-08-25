@@ -36,15 +36,11 @@ This application is designed with a professional interface and comprehensive fea
 ---
 
 ## 📸 Screenshot
-<img width="607" height="598" alt="image" src="https://github.com/user-attachments/assets/6cd25d8a-219a-4a79-8e9f-8ebbbca9779e" />
+### For PyQt 6:
+<img width="601" height="532" alt="pyqt6" src="https://github.com/user-attachments/assets/7ef1271d-3af9-48d9-9337-06c6deeeaaba" />
 
-
-## 🚀 Roadmap / Upcoming Features
-- 💾 **Save & Load Project Config (.json)** → Save build settings for reuse.
-
-- 🎯 **Preset Build Profile** (Release, Debug, Minimal).
-- 🖼️ **Auto-generate Icon (.ico)** from PNG if not already available.
-- 📦 **Inno Setup Integration** → Also creates a Windows installer after compilation.
+### For PyQt5:
+<img width="603" height="533" alt="pyqt5" src="https://github.com/user-attachments/assets/86a00775-4052-45a1-8e5c-c20cf3777e19" />
 
 ---
 
