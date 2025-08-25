@@ -16,15 +16,6 @@ This application is designed with a professional interface and comprehensive fea
 - Supports standalone build options, onefile, and various Nuitka configurations.
 - Run the compilation process in a separate thread (doesn't freeze the UI).
 
-- 📝 **Version & Metadata**
-- Dedicated dialog for filling in application metadata:
-- FileVersion
-- ProductName
-- CompanyName
-- LegalCopyright
-- Auto-fill from script name.
-- Metadata automatically injected into builds (`--windows-file-version`, `--windows-product-version`, etc.).
-
 - 📂 **File & Directory Management**
 - Easily add files/directories to builds.
 - Option to include additional resources.
