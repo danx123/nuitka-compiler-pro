@@ -28,7 +28,8 @@ This application is designed with a professional interface and comprehensive fea
 
 ## 📸 Screenshot
 ### For PyQt6, PyQt5, PySide6, PySide2
-<img width="602" height="540" alt="Screenshot 2025-08-25 222453" src="https://github.com/user-attachments/assets/0486c044-9905-4962-a18a-467677099136" />
+<img width="704" height="683" alt="Screenshot 2025-08-26 084349" src="https://github.com/user-attachments/assets/624b8dc6-2672-4e99-b970-4eaee941798f" />
+
 
 
 ---
