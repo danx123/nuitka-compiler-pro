@@ -28,14 +28,16 @@ This application is designed with a professional interface and comprehensive fea
 
 ## 📸 Screenshot
 ### For PyQt6, PyQt5, PySide6, PySide2
-<img width="734" height="699" alt="image" src="https://github.com/user-attachments/assets/4960bdfe-fb52-4b86-8500-7bf0fc354c7d" />
 
-
-
-
+<img width="742" height="707" alt="Screenshot 2025-10-01 174708" src="https://github.com/user-attachments/assets/555acf72-85b0-4eec-816a-2737eaa2a2f2" />
 
 
 ---
+
+## 📝 Changelog v3.0.0.0
+- Add Multimedia Plugin (PySide6)
+- Compilation Core
+- Add option, Shutdown when done
 
 ## 📥 Installation & Running
 
