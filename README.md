@@ -35,12 +35,9 @@ This application is designed with a professional interface and comprehensive fea
 
 ---
 
-## 📝 Changelog v3.5.0
-- Update Framework
-- Added .ncp (Nuitka Compiler Profile) — save/load build configurations.
-- Added Elapsed Time display in compilation log header.
-- Added Reload UI action to apply preference changes without restart.
-- Minor UX improvements: clearer log, improved cache management button, preview command fixes.
+## 📝 Changelog v3.5.1
+- Update Framework (Pyside6 v6.9.10 + Multimedia Plugin)
+
 
 ## 📥 Installation & Running
 
