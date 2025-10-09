@@ -36,7 +36,7 @@ This application is designed with a professional interface and comprehensive fea
 ---
 
 ## 📝 Changelog v3.5.1
-- Update Framework (Pyside6 v6.9.10 + Multimedia Plugin)
+- Update Framework (Pyside6 v6.10 + Multimedia Plugin)
 
 
 ## 📥 Installation & Running
