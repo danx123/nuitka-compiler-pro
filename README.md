@@ -29,14 +29,14 @@ This application is designed with a professional interface and comprehensive fea
 ## 📸 Screenshot
 ### For PyQt6, PyQt5, PySide6, PySide2
 
-<img width="703" height="683" alt="Capture" src="https://github.com/user-attachments/assets/2b92e574-2354-4246-a2ee-a1e277474d37" />
+<img width="1071" height="726" alt="Screenshot 2025-10-21 155433" src="https://github.com/user-attachments/assets/9f7c7ff7-c70a-4265-86a1-c15cfd574514" />
 
 
 
 ---
 
-## 📝 Changelog v3.5.1
-- Update Framework (Pyside6 v6.10 + Multimedia Plugin)
+## 📝 Changelog v3.5.5
+- Added Expand log
 
 
 ## 📥 Installation & Running
