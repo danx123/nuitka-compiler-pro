@@ -32,22 +32,9 @@ This application is designed with a professional interface and comprehensive fea
 
 ---
 
-## 📝 Changelog v3.8.0
-- 🐛 Fixed (Improvement)
-Critical UI Freeze: Fixed a bug where the application would hang (Not Responding) or crash after compilation completed, specifically when the "Multimedia Plugin" or "Deploy (.zip)" checkboxes were enabled.
-Cause: Heavy I/O operations (file copying and LZMA compression) were previously running on the main thread (GUI thread), completely blocking the application's event loop.
-Crashes during Chained Tasks: Fixed a race condition that caused a forced close due to attempts to reuse a QThread handle that hadn't been fully closed by a previous process.
-
-- ⚙️ Changed (Changes)
-Asynchronous I/O Processes:
-Introducing the new AssetCopyWorker and ZipWorker. These workers now move the file copy and .zip compression logic to separate threads.
-Compilation, asset copying, and zipping now run asynchronously and sequentially (chained) without ever blocking the UI.
-Safe Thread Management:
-Each worker (compile, copy, zip) now uses its own QThread variables (compiler_thread, asset_thread, zip_thread).
-Implemented an auto-cleanup mechanism using .deleteLater() on threads and workers to ensure they are safely closed and removed from memory after the task completes. This is a major fix for previous crashes.
-UI State Logic:
-The "Start Compilation" button will now remain disabled throughout the entire chain (compile -> copy -> zip).
-The button will only become active again after all selected tasks have completed, or if one of the steps fails midway.
+## 📝 Changelog v4.0.0
+- Update Framework
+- Update Multimedia Plugin
 
 
 ## 📥 Installation & Running
