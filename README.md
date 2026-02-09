@@ -28,8 +28,8 @@ This application is designed with a professional interface and comprehensive fea
 
 ## 📸 Screenshot
 ### For PySide6
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-12 151937" src="https://github.com/user-attachments/assets/7027af39-3c93-4a3c-9b3b-ab61aad726a9" />
-<img width="1366" height="768" alt="nuitka_sc" src="https://github.com/user-attachments/assets/3347d249-b708-448a-9df0-dbfc32dbb481" />
+<img width="1365" height="767" alt="Screenshot 2026-02-09 193912" src="https://github.com/user-attachments/assets/cfab291b-cd71-4a7d-bbb6-716bd9dac455" />
+
 
 ---
 
