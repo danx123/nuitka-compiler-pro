@@ -28,7 +28,10 @@ This application is designed with a professional interface and comprehensive fea
 
 ## 📸 Screenshot
 ### For PySide6
-<img width="1365" height="767" alt="Screenshot 2026-02-09 193912" src="https://github.com/user-attachments/assets/cfab291b-cd71-4a7d-bbb6-716bd9dac455" />
+<img width="1365" height="767" alt="Screenshot 2026-02-13 153307" src="https://github.com/user-attachments/assets/fe5581f7-4323-4daf-8d8e-262bec6b5fc8" />
+<img width="1365" height="767" alt="Screenshot 2026-02-13 153320" src="https://github.com/user-attachments/assets/e9880b1c-1f26-4873-ae7b-a5bbb62eba88" />
+
+
 
 
 ---
