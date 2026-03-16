@@ -7,7 +7,7 @@
 **A professional GUI frontend for the [Nuitka](https://nuitka.net/) Python compiler.**  
 Build, package, and deploy Python applications to native executables — without touching the command line.
 
-[![GitHub Releases](https://img.shields.io/github/v/release/danx123/nuitka-compiler-pro?style=flat-square&color=10B981)](https://github.com/danx123/nuitka-compiler-pro/releases)
+
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D7?style=flat-square)](https://github.com/danx123/nuitka-compiler-pro/releases)
 [![License](https://img.shields.io/badge/license-MIT-F59E0B?style=flat-square)](LICENSE)
 
