@@ -1,4 +1,8 @@
 # Nuitka Compiler Pro
+![Version](https://img.shields.io/badge/version-7.6.0-E8FF00?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Total Downloads](https://img.shields.io/github/downloads/danx123/nuitka-compiler-pro/total?style=flat-square&color=E8FF00&label=downloads)
 
 <div align="center">
 
