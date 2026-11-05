@@ -64,9 +64,11 @@ class MenuHandler:
         m = mb.addMenu("&Tools")
 
         self._act(m, "Preview Command",       "Ctrl+P", self.win.preview_command,     "Preview Nuitka command")
-        self._act(m, "Clear Nuitka Cache",    "",       self.win.clear_nuitka_cache,  "Delete Nuitka cache")
+        self._act(m, "Clear Nuitka Cache",    "",       self.win.clear_nuitka_cache,  "Delete Nuitka global cache")
+        self._act(m, "Clear Build Cache (.build)", "",  self.win.clear_build_cache,   "Delete .build folder of the current script")
         m.addSeparator()
         self._act(m, "Batch Manager…",        "Ctrl+B", self.win.open_batch_dialog,   "Open batch compilation manager")
+        self._act(m, "Quick Queue Panel  (~)", "",      self.win.toggle_quick_queue,  "Hot plug: edit queue / cooldown / shutdown live (press ~)")
         m.addSeparator()
         self._act(m, "Reload Application",    "Ctrl+R", self.win.reload_application,  "Restart the app")
 
@@ -207,6 +209,7 @@ class MenuHandler:
   <tr><td><b>Ctrl+S / O</b></td><td>&nbsp;Save / Load profile</td></tr>
   <tr><td><b>Ctrl+E</b></td><td>&nbsp;Raw JSON editor</td></tr>
   <tr><td><b>Ctrl+B</b></td><td>&nbsp;Batch manager</td></tr>
+  <tr><td><b>~</b></td><td>&nbsp;Quick Queue (hot plug)</td></tr>
   <tr><td><b>Ctrl+P</b></td><td>&nbsp;Preview command</td></tr>
   <tr><td><b>Ctrl+T</b></td><td>&nbsp;Toggle light/dark</td></tr>
   <tr><td><b>Ctrl+L</b></td><td>&nbsp;Toggle log panel</td></tr>
@@ -220,6 +223,8 @@ class MenuHandler:
   <li><b>Multimedia Plugin</b>: Copies PySide6 DLLs for One-Directory mode.</li>
   <li><b>Deploy .zip</b>: LZMA-compressed archive of build output.</li>
   <li><b>Batch Mode</b>: Sequential compilation of multiple .ncp profiles with cooldown.</li>
+  <li><b>Quick Queue (~)</b>: Add/remove/reorder queue, change cooldown, toggle shutdown — even while a batch is running.</li>
+  <li><b>Build Cache</b>: <i>Keep</i> retains the .build folder for faster rebuilds; <i>Clear</i> uses --remove-output.</li>
 </ul>
 """
         QMessageBox.information(self.win, "Help — Nuitka Compiler Pro", html)
@@ -228,7 +233,7 @@ class MenuHandler:
         html = """
 <div style='text-align:center;'>
   <h3 style='color:#3B82F6;'>Nuitka Compiler Pro</h3>
-  <p style='color:#64748B;'>Version 7.5.0</p>
+  <p style='color:#64748B;'>Version 7.7.0</p>
   <hr>
   <p>Professional GUI frontend for the Nuitka Python compiler.<br>
   Built for production build workflows.</p>
